@@ -1,0 +1,191 @@
+@font-face {
+    font-family: 'GTAmerica-Light';
+    src: url('GTAmerica-Light.eot');
+    src: local('GTAmerica-Light')
+            url('GTAmerica-Light.eot?#iefix') format('embedded-opentype'),
+            url('GTAmerica-Light.woff2') format('woff2'),
+            url('GTAmerica-Light.woff') format('woff'),
+            url('GTAmerica-Light.ttf') format('truetype'),
+            url('GTAmerica-Light.svg#GTAmerica-Light') format('svg');
+}
+
+@font-face {
+    font-family: 'GTAmerica-Medium';
+    src: url('GTAmerica-Medium.eot');
+    src: local('GTAmerica-Medium'),
+            url('GTAmerica-Medium.eot?#iefix') format('embedded-opentype'),
+            url('GTAmerica-Medium.woff2') format('woff2'),
+            url('GTAmerica-Medium.woff') format('woff'),
+            url('GTAmerica-Medium.ttf') format('truetype'),
+            url('GTAmerica-Medium.svg#GTAmerica-Medium') format('svg');
+}
+
+@font-face {
+    font-family: 'Canela-Thin';
+    src: url('Canela-Thin.eot');
+    src: local('Canela-Thin')
+            url('Canela-Thin.eot?#iefix') format('embedded-opentype'),
+            url('Canela-Thin.woff2') format('woff2'),
+            url('Canela-Thin.woff') format('woff'),
+            url('Canela-Thin.ttf') format('truetype'),
+            url('Canela-Thin.svg#Canela-Thin') format('svg');
+}
+
+@font-face {
+    font-family: 'Canela-Regular';
+    src: url('Canela-Regular.eot');
+    src: local('Canela-Regular')
+            url('Canela-Regular.eot?#iefix') format('embedded-opentype'),
+            url('Canela-Regular.woff2') format('woff2'),
+            url('Canela-Regular.woff') format('woff'),
+            url('Canela-Regular.ttf') format('truetype'),
+            url('Canela-Regular.svg#Canela-Regular') format('svg');
+}
+
+html{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    background-color: #F8F4F1;
+}
+
+.heading1{
+    font-family: 'Canela-Regular', serif;
+    font-size: 2em;
+    line-height: 1em;
+    color: #002EA7;
+}
+
+.heading2{
+    font-family: 'Canela-Thin', serif;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    color: #002EA7;
+}
+
+.paragraph{
+    font-family: 'GTAmerica-Light', sans-serif;
+    font-size: 0.7em;
+    line-height: 1.8em;
+    color: #002EA7;
+}
+
+.paragraph-small{
+    font-family: 'GTAmerica-Light', sans-serif;
+    font-size: 0.5em;
+    line-height: 0;
+    color: #002EA7;
+}
+
+.bold{
+    font-family: 'GTAmerica-Medium', sans-serif;
+}
+
+a{
+    color: #002EA7 !important;
+    text-decoration: none;
+}
+
+a:hover{
+     color:#5D71A5 !important; 
+     text-decoration: none !important;
+     cursor: pointer;  
+}
+
+#p-hover:hover{
+    color: #5D71A5;
+    cursor: pointer;
+}
+
+.float{
+    float: right;
+    padding: 0 0 20px 20px;
+}
+
+.sidenav{
+    height: 100%;
+    width: 40%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #F8F4F1;
+    overflow-x: hidden;
+    padding: 100px 60px 0px 200px;
+}
+
+.main{
+    margin-left: 40%; /* Same as the width of the sidenav */
+    padding: 100px 200px 0px 0px;
+    background-color: #F8F4F1;
+}
+
+.project-border{
+    margin-bottom: 1em;
+}
+
+.footer{
+    width: 100%;
+    height: 3em;
+}
+
+@media screen and (max-width:1200px) {
+    .sidenav{
+        width: 40%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #F8F4F1;
+        overflow-x: hidden;
+        padding: 50px 60px 0px 100px;
+    }
+    
+    .main{
+        margin-left: 40%; /* Same as the width of the sidenav */
+        padding: 50px 100px 0px 0px;
+        background-color: #F8F4F1;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .sidenav{
+        width: 40%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #F8F4F1;
+        overflow-x: hidden;
+        padding: 50px 30px 0px 50px;
+    }
+    
+    .main{
+        margin-left: 40%; /* Same as the width of the sidenav */
+        padding: 50px 50px 0px 0px;
+        background-color: #F8F4F1;
+    }
+
+    .float{
+        width: 100%;
+        margin: 0 0 20px 0;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:575px){
+    .sidenav{
+        position: static;
+        height: auto;
+        width: 100%;
+        background-color: #F8F4F1;
+        padding: 30px 30px 0px 30px;
+    }
+    
+    .main{
+        width: 100%;
+        padding: 30px 30px 0px 30px;
+        margin: 0;
+        background-color: #F8F4F1;
+    }
+}
