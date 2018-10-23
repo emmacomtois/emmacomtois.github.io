@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'GTAmerica-Medium';
+    src: url('GTAmerica-Medium.eot');
+    src: url('GTAmerica-Medium.eot?#iefix') format('embedded-opentype'),
+        url('GTAmerica-Medium.woff2') format('woff2'),
+        url('GTAmerica-Medium.woff') format('woff'),
+        url('GTAmerica-Medium.ttf') format('truetype'),
+        url('GTAmerica-Medium.svg#GTAmerica-Medium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GTAmerica-Light';
+    src: url('GTAmerica-Light.eot');
+    src: url('GTAmerica-Light.eot?#iefix') format('embedded-opentype'),
+        url('GTAmerica-Light.woff2') format('woff2'),
+        url('GTAmerica-Light.woff') format('woff'),
+        url('GTAmerica-Light.ttf') format('truetype'),
+        url('GTAmerica-Light.svg#GTAmerica-Light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Canela-Regular';
+    src: url('Canela-Regular.eot');
+    src: url('Canela-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Canela-Regular.woff2') format('woff2'),
+        url('Canela-Regular.woff') format('woff'),
+        url('Canela-Regular.ttf') format('truetype'),
+        url('Canela-Regular.svg#Canela-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Canela-Thin';
+    src: url('Canela-Thin.eot');
+    src: url('Canela-Thin.eot?#iefix') format('embedded-opentype'),
+        url('Canela-Thin.woff2') format('woff2'),
+        url('Canela-Thin.woff') format('woff'),
+        url('Canela-Thin.ttf') format('truetype'),
+        url('Canela-Thin.svg#Canela-Thin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
