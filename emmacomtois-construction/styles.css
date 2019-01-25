@@ -1,45 +1,41 @@
 @font-face {
     font-family: 'GTAmerica-Light';
-    src: url('GTAmerica-Light.eot');
-    src: local('GTAmerica-Light')
-            url('GTAmerica-Light.eot?#iefix') format('embedded-opentype'),
-            url('GTAmerica-Light.woff2') format('woff2'),
-            url('GTAmerica-Light.woff') format('woff'),
-            url('GTAmerica-Light.ttf') format('truetype'),
-            url('GTAmerica-Light.svg#GTAmerica-Light') format('svg');
+    src: url('../fonts/GTAmerica-Light.eot');
+    src: url('../fonts/GTAmerica-Light.eot?#iefix') format('embedded-opentype'),
+            url('../fonts/GTAmerica-Light.woff2') format('woff2'),
+            url('../fonts/GTAmerica-Light.woff') format('woff'),
+            url('../fonts/GTAmerica-Light.ttf') format('truetype'),
+            url('../fonts/GTAmerica-Light.svg#GTAmerica-Light') format('svg');
 }
 
 @font-face {
     font-family: 'GTAmerica-Medium';
-    src: url('GTAmerica-Medium.eot');
-    src: local('GTAmerica-Medium'),
-            url('GTAmerica-Medium.eot?#iefix') format('embedded-opentype'),
-            url('GTAmerica-Medium.woff2') format('woff2'),
-            url('GTAmerica-Medium.woff') format('woff'),
-            url('GTAmerica-Medium.ttf') format('truetype'),
-            url('GTAmerica-Medium.svg#GTAmerica-Medium') format('svg');
+    src: url('../fonts/GTAmerica-Medium.eot');
+    src: url('../fonts/GTAmerica-Medium.eot?#iefix') format('embedded-opentype'),
+            url('../fonts/GTAmerica-Medium.woff2') format('woff2'),
+            url('../fonts/GTAmerica-Medium.woff') format('woff'),
+            url('../fonts/GTAmerica-Medium.ttf') format('truetype'),
+            url('../fonts/GTAmerica-Medium.svg#GTAmerica-Medium') format('svg');
 }
 
 @font-face {
     font-family: 'Canela-Thin';
-    src: url('Canela-Thin.eot');
-    src: local('Canela-Thin')
-            url('Canela-Thin.eot?#iefix') format('embedded-opentype'),
-            url('Canela-Thin.woff2') format('woff2'),
-            url('Canela-Thin.woff') format('woff'),
-            url('Canela-Thin.ttf') format('truetype'),
-            url('Canela-Thin.svg#Canela-Thin') format('svg');
+    src: url('../fonts/Canela-Thin.eot');
+    src: url('../fonts/Canela-Thin.eot?#iefix') format('embedded-opentype'),
+            url('../fonts/Canela-Thin.woff2') format('woff2'),
+            url('../fonts/Canela-Thin.woff') format('woff'),
+            url('../fonts/Canela-Thin.ttf') format('truetype'),
+            url('../fonts/Canela-Thin.svg#Canela-Thin') format('svg');
 }
 
 @font-face {
     font-family: 'Canela-Regular';
-    src: url('Canela-Regular.eot');
-    src: local('Canela-Regular')
-            url('Canela-Regular.eot?#iefix') format('embedded-opentype'),
-            url('Canela-Regular.woff2') format('woff2'),
-            url('Canela-Regular.woff') format('woff'),
-            url('Canela-Regular.ttf') format('truetype'),
-            url('Canela-Regular.svg#Canela-Regular') format('svg');
+    src: url('../fonts/Canela-Regular.eot');
+    src: url('../fonts/Canela-Regular.eot?#iefix') format('embedded-opentype'),
+            url('../fonts/Canela-Regular.woff2') format('woff2'),
+            url('../fonts/Canela-Regular.woff') format('woff'),
+            url('../fonts/Canela-Regular.ttf') format('truetype'),
+            url('../fonts/Canela-Regular.svg#Canela-Regular') format('svg');
 }
 
 html{
