@@ -67,7 +67,8 @@ a:hover{text-decoration:none !important; cursor: pointer;}
 a.link-color{color: var(--link-color);}
 a.link-color:hover{color: var(--hover-color) !important;}
 
-a.no-hover:hover{color: var(--nohover-color) !important;}
+a.link-color{color: var(--link-color);}
+a.no-hover:hover{color: var(--nohover-color);}
 
 .logo-index{
     width: 65%;
