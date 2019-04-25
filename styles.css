@@ -87,6 +87,8 @@ body{
 .lightpink{color: #C7A6A3;}
 .pink{color: #BC6C64;}
 
+.spacer{margin-top: 5em;}
+
 a{text-decoration:none;}
 a:hover{text-decoration:none !important; cursor: pointer;}
 
