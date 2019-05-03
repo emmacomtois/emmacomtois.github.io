@@ -3,10 +3,10 @@ $(document).ready(function() {
 		$('.collapse').collapse('toggle');
 
 		const text = $(this).find("span").text();
-		if (text === "+ VIEW RESUME") {
-			$(this).find("span").text("- CLOSE RESUME");
+		if (text === "+ View Resume") {
+			$(this).find("span").text("- Close Resume");
 		} else {
-			$(this).find("span").text("+ VIEW RESUME");
+			$(this).find("span").text("+ View Resume");
 		};
 	}); // click
 }); // ready
